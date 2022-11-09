@@ -1,8 +1,12 @@
 
-## En este post presento mi nueva herramienta basada en OsintFramework y Osintgram:
+## Os presento mi nueva herramienta de descubrimiento de usuarios en instagram basada en **OsintFramework** y **Osintgram**:
 
 
-![img-description](img/instafinder.jpg)
+ ___ _   _ ____ _____  _    _____ ___ _   _ ____  _____ ____
+|_ _| \ | / ___|_   _|/ \  |  ___|_ _| \ | |  _ \| ____|  _ \
+ | ||  \| \___ \ | | / _ \ | |_   | ||  \| | | | |  _| | |_) |
+ | || |\  |___) || |/ ___ \|  _|  | || |\  | |_| | |___|  _ <
+|___|_| \_|____/ |_/_/   \_\_|   |___|_| \_|____/|_____|_| \_\
 
 
 Está herramienta se encarga de generar una lista de usuarios disponibles gracias a los datos que insertes en el script:
