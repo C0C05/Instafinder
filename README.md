@@ -1,23 +1,25 @@
 
-## Os presento mi nueva herramienta de descubrimiento de usuarios en instagram basada en [OSRFramework](https://github.com/i3visio/osrframework) y [Osintgram](https://github.com/Datalux/Osintgram):
+# Instafinder
 
-```
- ___ _   _ ____ _____  _    _____ ___ _   _ ____  _____ ____
-|_ _| \ | / ___|_   _|/ \  |  ___|_ _| \ | |  _ \| ____|  _ \
- | ||  \| \___ \ | | / _ \ | |_   | ||  \| | | | |  _| | |_) |
- | || |\  |___) || |/ ___ \|  _|  | || |\  | |_| | |___|  _ <
-|___|_| \_|____/ |_/_/   \_\_|   |___|_| \_|____/|_____|_| \_\
-```
+Este es un script de Bash para buscar nombres de usuario en Instagram utilizando OSRFramework y Osintgram. 
 
-Está herramienta se encarga de generar una lista de usuarios disponibles gracias a los datos que insertes en el script:
+## Instalación
 
- - Nombre: 
- - Apellido1:
- - Apellido2:
- - Año:
- - Ciudad:
- - Pais:
+Para instalar este script, primero deberás tener instalado OSRFramework y Osintgram. Puedes instalar OSRFramework siguiendo las instrucciones en su [página de GitHub](https://github.com/i3visio/osrframework), y Osintgram siguiendo las instrucciones en su [página de GitHub](https://github.com/Datalux/Osintgram). 
 
-Esta generación de nombres de usuarios es gracias a el aplicativo de [alias_generator](https://github.com/i3visio/osrframework)
+Una vez que hayas instalado estas dependencias, puedes descargar este script y guardarlo en una carpeta en tu ordenador. Asegúrate de darle permisos de ejecución con el comando `chmod +x nombre_del_script.sh`. 
 
-Después utiliza está lista para buscar en la api de **instagram** todos los usuarios que se encuentran disponibles en la plataforma, todo gracias al aplicativo [Osintgram](https://github.com/Datalux/Osintgram) 
+## Ejemplos de uso
+
+Para usar este script, puedes ejecutarlo desde la línea de comandos de la siguiente manera:
+
+```./nombre_del_script.sh```
+
+Esto ejecutará el script y te pedirá que ingreses los detalles necesarios para buscar nombres de usuario en Instagram. 
+
+También puedes usar los parámetros `-n`, `-a`, `-x`, `-c`, `-p` y `-y` para proporcionar los detalles necesarios de forma automatizada. Por ejemplo:
+
+```./nombre_del_script.sh -n "Juan" -a "Pérez" -x "González" -c "Madrid" -p "España" -y "2000"```
+
+
+Este comando buscará nombres de usuario en Instagram con el nombre "Juan", el primer apellido "Pérez" y el segundo apellido "González", que nacieron en el año "2000" en la ciudad de "Madrid" en el país de "España".
